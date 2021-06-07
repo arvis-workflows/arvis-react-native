@@ -1,0 +1,30 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "createdby": "Emmanouil Konstantinidis",
+  "description": "Access the React Native Documentation from Alfred",
+  "name": "React Native",
+  "readme": "",
+  "defaultIcon": "icon.png",
+  "version": "0.0.3",
+  "webaddress": "https://github.com/manosim/alfred-react-native",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "rn",
+      "title": "React Native",
+      "subtitle": "Access the React Native Documentation",
+      "script_filter": "node index.js \"$1\"",
+      "running_subtext": "Loading Documentation",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "{query}"
+        }
+      ]
+    }
+  ]
+}
