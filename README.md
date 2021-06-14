@@ -3,6 +3,12 @@
 
 ![screenshot.png](screenshot.png)
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/manosim/alfred-react-native).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```

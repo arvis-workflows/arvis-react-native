@@ -1,4 +1,4 @@
-const arvish = require('@jopemachine/arvish');
+const arvish = require('arvish');
 
 const rn_website = 'https://facebook.github.io/react-native/docs/';
 const toc = [
