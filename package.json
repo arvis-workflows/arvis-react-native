@@ -1,6 +1,6 @@
 {
   "name": "arvis-react-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Access the React Native Documentation from Arvis",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/ekonstantinidis/alfred-react-native#readme",
   "dependencies": {
-    "arvish": "^0.0.3"
+    "arvish": "^0.1.3"
   }
 }
