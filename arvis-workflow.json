@@ -5,7 +5,7 @@
   "name": "React Native",
   "readme": "",
   "defaultIcon": "icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "webAddress": "https://github.com/manosim/alfred-react-native",
   "enabled": true,
   "commands": [
@@ -14,11 +14,11 @@
       "command": "rn",
       "title": "React Native",
       "subtitle": "Access the React Native Documentation",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Loading Documentation",
       "withspace": true,
       "argType": "required",
-      "action": [
+      "actions": [
         {
           "modifiers": "normal",
           "type": "open",
