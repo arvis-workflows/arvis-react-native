@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "creator": "Emmanouil Konstantinidis",
-  "description": "Access the React Native Documentation from Alfred",
-  "name": "React Native",
+  "description": "Access the React Native Documentation from Arvis",
+  "name": "arvis-react-native",
   "readme": "",
   "defaultIcon": "icon.png",
-  "version": "0.0.3",
-  "webAddress": "https://github.com/manosim/alfred-react-native",
+  "version": "0.0.5",
+  "webAddress": "https://github.com/jopemachine/arvis-react-native",
   "enabled": true,
   "commands": [
     {
